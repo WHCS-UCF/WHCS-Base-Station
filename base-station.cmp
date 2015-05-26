@@ -1,0 +1,150 @@
+Cmp-Mod V01 Created by CvPcb (2013-may-18)-stable date = Thu 30 Apr 2015 03:51:26 PM EDT
+
+BeginCmp
+TimeStamp = /55356B5A;
+Reference = C1;
+ValeurCmp = 22pF;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /55356B60;
+Reference = C2;
+ValeurCmp = 22pF;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /55357636;
+Reference = C3;
+ValeurCmp = 100nF;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /553EB01A;
+Reference = C4;
+ValeurCmp = 22pF;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /553EB014;
+Reference = C5;
+ValeurCmp = 22pF;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /553EB00E;
+Reference = C6;
+ValeurCmp = 22pF;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /553EB020;
+Reference = C7;
+ValeurCmp = 22pF;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /553576F8;
+Reference = CON1;
+ValeurCmp = AVR-ISP-6;
+IdModule  = pin_array_3x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /552EBE70;
+Reference = IC1;
+ValeurCmp = ATMEGA32-A;
+IdModule  = TQFP44;
+EndCmp
+
+BeginCmp
+TimeStamp = /553D935D;
+Reference = P1;
+ValeurCmp = CONN_6;
+IdModule  = PIN_ARRAY-6X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /553D937E;
+Reference = P2;
+ValeurCmp = CONN_4X2;
+IdModule  = pin_array_4x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /552EC028;
+Reference = P4;
+ValeurCmp = LCD1;
+IdModule  = PIN_ARRAY_20X2;
+EndCmp
+
+BeginCmp
+TimeStamp = /552EC647;
+Reference = P5;
+ValeurCmp = LCD1;
+IdModule  = PIN_ARRAY_20X2;
+EndCmp
+
+BeginCmp
+TimeStamp = /553EA1C9;
+Reference = Q1;
+ValeurCmp = MOS_N;
+IdModule  = sot23;
+EndCmp
+
+BeginCmp
+TimeStamp = /553EA43E;
+Reference = R1;
+ValeurCmp = 1000;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /553AE107;
+Reference = R2;
+ValeurCmp = 1000;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /553E8829;
+Reference = R3;
+ValeurCmp = 2000;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /553EB51D;
+Reference = R4;
+ValeurCmp = 4700;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /553EC707;
+Reference = SW1;
+ValeurCmp = RESET;
+IdModule  = SW_PUSH_SMALL;
+EndCmp
+
+BeginCmp
+TimeStamp = /553EBC2F;
+Reference = U1;
+ValeurCmp = LM1084IT-3.3/NOPB;
+IdModule  = TO220;
+EndCmp
+
+BeginCmp
+TimeStamp = /55356B1C;
+Reference = X1;
+ValeurCmp = 16MHz;
+IdModule  = crystal_FA238-TSX3225;
+EndCmp
+
+EndListe

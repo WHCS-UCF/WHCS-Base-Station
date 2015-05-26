@@ -1,0 +1,50 @@
+eeschema (2013-may-18)-stable  >> Creation date: Thu 30 Apr 2015 01:06:58 AM EDT
+#Cmp ( order = Reference )
+| C1         22pF        
+| C2         22pF        
+| C3         100nF       
+| C4         22pF        
+| C5         22pF        
+| C6         22pF        
+| C7         22pF        
+| CON1       AVR-ISP-6   
+| IC1        ATMEGA32-A  
+| P1         CONN_6      
+| P2         CONN_4X2    
+| P4         LCD1        
+| P5         LCD1        
+| Q1         MOS_N       
+| R1         1000        
+| R2         1000        
+| R3         2000        
+| R4         4700        
+| SW1        RESET       
+| U1         LM1084IT-3.3/NOPB
+| X1         16MHz       
+#End Cmp
+
+#Cmp ( order = Value )
+| 22pF         C1        
+| 22pF         C2        
+| 22pF         C4        
+| 22pF         C5        
+| 22pF         C6        
+| 22pF         C7        
+| 100nF        C3        
+| AVR-ISP-6    CON1      
+| ATMEGA32-A   IC1       
+| CONN_6       P1        
+| CONN_4X2     P2        
+| LCD1         P4        
+| LCD1         P5        
+| MOS_N        Q1        
+| 1000         R1        
+| 1000         R2        
+| 2000         R3        
+| 4700         R4        
+| RESET        SW1       
+| LM1084IT-3.3/NOPB U1        
+| 16MHz        X1        
+#End Cmp
+
+#End List
