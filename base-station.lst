@@ -1,50 +1,62 @@
-eeschema (2013-may-18)-stable  >> Creation date: Thu 30 Apr 2015 01:06:58 AM EDT
+eeschema (2013-may-18)-stable  >> Creation date: Thu 11 Jun 2015 02:15:18 PM EDT
 #Cmp ( order = Reference )
-| C1         22pF        
-| C2         22pF        
-| C3         100nF       
-| C4         22pF        
-| C5         22pF        
-| C6         22pF        
-| C7         22pF        
-| CON1       AVR-ISP-6   
-| IC1        ATMEGA32-A  
-| P1         CONN_6      
-| P2         CONN_4X2    
-| P4         LCD1        
-| P5         LCD1        
-| Q1         MOS_N       
-| R1         1000        
-| R2         1000        
-| R3         2000        
-| R4         4700        
-| SW1        RESET       
-| U1         LM1084IT-3.3/NOPB
-| X1         16MHz       
+| C1         10pF        ; SM0805      ;             ;             ;             ;             ;             ;             ;             ;             
+| C2         10pF        ; SM0805      ;             ;             ;             ;             ;             ;             ;             ;             
+| C3         100nF       ; SM0805      ;             ;             ;             ;             ;             ;             ;             ;             
+| C4         100nF       ; SM0805      ;             ;             ;             ;             ;             ;             ;             ;             
+| C5         100nF       ; SM0805      ;             ;             ;             ;             ;             ;             ;             ;             
+| C6         100nF       ; SM0805      ;             ;             ;             ;             ;             ;             ;             ;             
+| C7         100nF       ; SM0805      ;             ;             ;             ;             ;             ;             ;             ;             
+| C8         1uF         ; SM0805      ;             ;             ;             ;             ;             ;             ;             ;             
+| C9         1uF         ; SM0805      ;             ;             ;             ;             ;             ;             ;             ;             
+| CON1       ISP         ; pin_array_3x2; Male        ;             ;             ;             ;             ;             ;             ;             
+| D1         STATUS      ; LED-0805    ;             ;             ;             ;             ;             ;             ;             ;             
+| IC1        ATMEGA32-A  ; TQFP44      ;             ;             ;             ;             ;             ;             ;             ;             
+| P1         HC-05       ; PIN_ARRAY-6X1; Female      ;             ;             ;             ;             ;             ;             ;             
+| P2         NRF24L01+   ; pin_array_4x2; Female      ;             ;             ;             ;             ;             ;             ;             
+| P3         SERIAL      ; PIN_ARRAY_2X1; Male        ;             ;             ;             ;             ;             ;             ;             
+| P4         LCD1        ; PIN_ARRAY_20X1;             ;             ;             ;             ;             ;             ;             ;             
+| P5         LCD2        ; PIN_ARRAY_20X1; Female      ;             ;             ;             ;             ;             ;             ;             
+| P6         POWER       ; terminal-282836-3; Female      ;             ;             ;             ;             ;             ;             ;             
+| Q1         BTEN        ; SOT23       ;             ;             ;             ;             ;             ;             ;             ;             
+| R1         1000        ; SM0805      ;             ;             ;             ;             ;             ;             ;             ;             
+| R2         1000        ; SM0805      ;             ;             ;             ;             ;             ;             ;             ;             
+| R3         2000        ; SM0805      ;             ;             ;             ;             ;             ;             ;             ;             
+| R4         4700        ; SM0805      ;             ;             ;             ;             ;             ;             ;             ;             
+| R5         90          ; SM0805      ;             ;             ;             ;             ;             ;             ;             ;             
+| SW1        RESET       ; SW_PUSH_SMALL;             ;             ;             ;             ;             ;             ;             ;             
+| U1         LP5907      ; SOT23-5     ;             ;             ;             ;             ;             ;             ;             ;             
+| X1         16MHz       ; 2-SMD       ;             ;             ;             ;             ;             ;             ;             ;             
 #End Cmp
 
 #Cmp ( order = Value )
-| 22pF         C1        
-| 22pF         C2        
-| 22pF         C4        
-| 22pF         C5        
-| 22pF         C6        
-| 22pF         C7        
-| 100nF        C3        
-| AVR-ISP-6    CON1      
-| ATMEGA32-A   IC1       
-| CONN_6       P1        
-| CONN_4X2     P2        
-| LCD1         P4        
-| LCD1         P5        
-| MOS_N        Q1        
-| 1000         R1        
-| 1000         R2        
-| 2000         R3        
-| 4700         R4        
-| RESET        SW1       
-| LM1084IT-3.3/NOPB U1        
-| 16MHz        X1        
+| 10pF         C1        ; SM0805      ;             ;             ;             ;             ;             ;             ;             ;             
+| 10pF         C2        ; SM0805      ;             ;             ;             ;             ;             ;             ;             ;             
+| 100nF        C3        ; SM0805      ;             ;             ;             ;             ;             ;             ;             ;             
+| 100nF        C4        ; SM0805      ;             ;             ;             ;             ;             ;             ;             ;             
+| 100nF        C5        ; SM0805      ;             ;             ;             ;             ;             ;             ;             ;             
+| 100nF        C6        ; SM0805      ;             ;             ;             ;             ;             ;             ;             ;             
+| 100nF        C7        ; SM0805      ;             ;             ;             ;             ;             ;             ;             ;             
+| 1uF          C8        ; SM0805      ;             ;             ;             ;             ;             ;             ;             ;             
+| 1uF          C9        ; SM0805      ;             ;             ;             ;             ;             ;             ;             ;             
+| ISP          CON1      ; pin_array_3x2; Male        ;             ;             ;             ;             ;             ;             ;             
+| STATUS       D1        ; LED-0805    ;             ;             ;             ;             ;             ;             ;             ;             
+| ATMEGA32-A   IC1       ; TQFP44      ;             ;             ;             ;             ;             ;             ;             ;             
+| HC-05        P1        ; PIN_ARRAY-6X1; Female      ;             ;             ;             ;             ;             ;             ;             
+| LCD1         P4        ; PIN_ARRAY_20X1;             ;             ;             ;             ;             ;             ;             ;             
+| LCD2         P5        ; PIN_ARRAY_20X1; Female      ;             ;             ;             ;             ;             ;             ;             
+| SERIAL       P3        ; PIN_ARRAY_2X1; Male        ;             ;             ;             ;             ;             ;             ;             
+| NRF24L01+    P2        ; pin_array_4x2; Female      ;             ;             ;             ;             ;             ;             ;             
+| POWER        P6        ; terminal-282836-3; Female      ;             ;             ;             ;             ;             ;             ;             
+| BTEN         Q1        ; SOT23       ;             ;             ;             ;             ;             ;             ;             ;             
+| 90           R5        ; SM0805      ;             ;             ;             ;             ;             ;             ;             ;             
+| 1000         R1        ; SM0805      ;             ;             ;             ;             ;             ;             ;             ;             
+| 1000         R2        ; SM0805      ;             ;             ;             ;             ;             ;             ;             ;             
+| 2000         R3        ; SM0805      ;             ;             ;             ;             ;             ;             ;             ;             
+| 4700         R4        ; SM0805      ;             ;             ;             ;             ;             ;             ;             ;             
+| RESET        SW1       ; SW_PUSH_SMALL;             ;             ;             ;             ;             ;             ;             ;             
+| LP5907       U1        ; SOT23-5     ;             ;             ;             ;             ;             ;             ;             ;             
+| 16MHz        X1        ; 2-SMD       ;             ;             ;             ;             ;             ;             ;             ;             
 #End Cmp
 
 #End List

@@ -1,16 +1,16 @@
-Cmp-Mod V01 Created by CvPcb (2013-may-18)-stable date = Thu 11 Jun 2015 01:23:47 AM EDT
+Cmp-Mod V01 Created by CvPcb (2013-may-18)-stable date = Thu 11 Jun 2015 11:21:57 AM EDT
 
 BeginCmp
 TimeStamp = /55356B5A;
 Reference = C1;
-ValeurCmp = 27pF;
+ValeurCmp = 10pF;
 IdModule  = SM0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /55356B60;
 Reference = C2;
-ValeurCmp = 27pF;
+ValeurCmp = 10pF;
 IdModule  = SM0805;
 EndCmp
 
@@ -50,16 +50,30 @@ IdModule  = SM0805;
 EndCmp
 
 BeginCmp
+TimeStamp = /5577CDFD;
+Reference = C8;
+ValeurCmp = 1uF;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /5577CF83;
+Reference = C9;
+ValeurCmp = 1uF;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
 TimeStamp = /553576F8;
 Reference = CON1;
-ValeurCmp = AVR-ISP-6;
+ValeurCmp = ISP;
 IdModule  = pin_array_3x2;
 EndCmp
 
 BeginCmp
 TimeStamp = /5575D54B;
 Reference = D1;
-ValeurCmp = LED;
+ValeurCmp = STATUS;
 IdModule  = LED-0805;
 EndCmp
 
@@ -73,22 +87,22 @@ EndCmp
 BeginCmp
 TimeStamp = /553D935D;
 Reference = P1;
-ValeurCmp = CONN_6;
+ValeurCmp = HC-05;
 IdModule  = PIN_ARRAY-6X1;
 EndCmp
 
 BeginCmp
 TimeStamp = /553D937E;
 Reference = P2;
-ValeurCmp = CONN_4X2;
+ValeurCmp = NRF24L01+;
 IdModule  = pin_array_4x2;
 EndCmp
 
 BeginCmp
 TimeStamp = /5575DBDF;
 Reference = P3;
-ValeurCmp = CONN_2;
-IdModule  = PIN_ARRAY_2X1;
+ValeurCmp = SERIAL;
+IdModule  = PIN_ARRAY_3X1;
 EndCmp
 
 BeginCmp
@@ -106,10 +120,17 @@ IdModule  = PIN_ARRAY_20X1;
 EndCmp
 
 BeginCmp
-TimeStamp = /553EA1C9;
+TimeStamp = /55777E73;
+Reference = P6;
+ValeurCmp = POWER;
+IdModule  = terminal-282836-3;
+EndCmp
+
+BeginCmp
+TimeStamp = /5577AD90;
 Reference = Q1;
-ValeurCmp = MOS_N;
-IdModule  = sot23;
+ValeurCmp = BTEN;
+IdModule  = SOT23;
 EndCmp
 
 BeginCmp
@@ -165,7 +186,7 @@ BeginCmp
 TimeStamp = /55356B1C;
 Reference = X1;
 ValeurCmp = 16MHz;
-IdModule  = crystal_FA238-TSX3225;
+IdModule  = 2-SMD;
 EndCmp
 
 EndListe
