@@ -37,7 +37,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title ""
-Date "11 jun 2015"
+Date "13 jun 2015"
 Rev ""
 Comp ""
 Comment1 ""
@@ -136,7 +136,7 @@ NoConn ~ 8150 4100
 NoConn ~ 8150 4200
 NoConn ~ 8150 4300
 Text Label 7950 2400 0    60   ~ 0
-CD
+CARD_DETECT
 Text Label 7950 2500 0    60   ~ 0
 CCS
 Text Label 6850 3200 2    60   ~ 0
@@ -148,15 +148,15 @@ Y+
 Text Label 6850 3500 2    60   ~ 0
 X+
 Text Label 6850 4100 2    60   ~ 0
-LRST
+LCS
 Text Label 6850 4000 2    60   ~ 0
-RD
+CD
 Text Label 6850 3900 2    60   ~ 0
 WR
 Text Label 6850 3800 2    60   ~ 0
-C/D
+RD
 Text Label 6850 3700 2    60   ~ 0
-LCS
+LRST
 Entry Wire Line
 	6550 2300 6650 2400
 Entry Wire Line
@@ -300,12 +300,12 @@ RST
 $Comp
 L R R2
 U 1 1 553AE107
-P 1600 6600
-F 0 "R2" V 1680 6600 40  0000 C CNN
-F 1 "1000" V 1607 6601 40  0000 C CNN
-F 2 "SM0805" V 1530 6600 30  0000 C CNN
-F 3 "~" H 1600 6600 30  0000 C CNN
-	1    1600 6600
+P 1600 6650
+F 0 "R2" V 1680 6650 40  0000 C CNN
+F 1 "1000" V 1607 6651 40  0000 C CNN
+F 2 "SM0805" V 1530 6650 30  0000 C CNN
+F 3 "~" H 1600 6650 30  0000 C CNN
+	1    1600 6650
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -344,10 +344,10 @@ Text Label 2100 5650 2    60   ~ 0
 3V3
 Text Label 2450 6800 2    60   ~ 0
 GND
-Text Label 1450 6350 2    60   ~ 0
-RX
-Text Label 2450 7000 2    60   ~ 0
+Text Label 1450 6400 2    60   ~ 0
 TX
+Text Label 2450 6900 2    60   ~ 0
+RX
 Text Label 2450 7100 2    60   ~ 0
 KEY
 Text Label 2450 7200 2    60   ~ 0
@@ -355,12 +355,12 @@ STATUS
 $Comp
 L R R3
 U 1 1 553E8829
-P 1600 7250
-F 0 "R3" V 1680 7250 40  0000 C CNN
-F 1 "2000" V 1607 7251 40  0000 C CNN
-F 2 "SM0805" V 1530 7250 30  0000 C CNN
-F 3 "~" H 1600 7250 30  0000 C CNN
-	1    1600 7250
+P 1600 7300
+F 0 "R3" V 1680 7300 40  0000 C CNN
+F 1 "2000" V 1607 7301 40  0000 C CNN
+F 2 "SM0805" V 1530 7300 30  0000 C CNN
+F 3 "~" H 1600 7300 30  0000 C CNN
+	1    1600 7300
 	-1   0    0    1   
 $EndComp
 Text Label 2400 4350 0    60   ~ 0
@@ -377,7 +377,7 @@ Text Label 6850 4200 2    60   ~ 0
 VCC
 Text Label 3100 3300 3    60   ~ 0
 GND
-Text Notes 1000 6950 0    60   ~ 0
+Text Notes 1000 7000 0    60   ~ 0
 5V -> 3V3
 Text Label 6400 6250 2    60   ~ 0
 GND
@@ -423,7 +423,7 @@ RD
 Text Label 5200 4900 0    60   ~ 0
 WR
 Text Label 5200 5000 0    60   ~ 0
-C/D
+CD
 Text Label 5200 5100 0    60   ~ 0
 LCS
 Entry Wire Line
@@ -562,7 +562,7 @@ Text Label 8250 6600 0    60   ~ 0
 RST
 Text Label 4350 5500 0    60   ~ 0
 GND
-Text Label 1600 7650 1    60   ~ 0
+Text Label 1600 7700 1    60   ~ 0
 GND
 Wire Wire Line
 	5200 1700 5350 1700
@@ -734,18 +734,15 @@ Wire Wire Line
 Wire Wire Line
 	2100 6800 2450 6800
 Wire Wire Line
-	1600 6900 2450 6900
-Wire Wire Line
-	2100 7000 2450 7000
+	1600 7000 2450 7000
 Wire Wire Line
 	2100 7100 2450 7100
 Wire Wire Line
 	2100 7200 2450 7200
 Wire Wire Line
-	1600 6850 1600 7000
-Connection ~ 1600 6900
+	1600 6900 1600 7050
 Wire Wire Line
-	1350 6350 1600 6350
+	1350 6400 1600 6400
 Wire Wire Line
 	6850 4200 6650 4200
 Wire Wire Line
@@ -842,9 +839,9 @@ Wire Wire Line
 	8200 6100 8550 6100
 Connection ~ 3100 2900
 Connection ~ 8550 6600
-Connection ~ 1600 7500
+Connection ~ 1600 7550
 Wire Wire Line
-	1600 7500 1600 7650
+	1600 7550 1600 7700
 NoConn ~ 8150 2400
 NoConn ~ 8150 2500
 Wire Wire Line
@@ -1065,4 +1062,7 @@ Wire Wire Line
 	1650 5150 1300 5150
 Text Notes 2200 5100 0    60   ~ 0
 Debug Serial
+Connection ~ 1600 7000
+Wire Wire Line
+	2450 6900 2100 6900
 $EndSCHEMATC
