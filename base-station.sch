@@ -37,7 +37,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title ""
-Date "13 jun 2015"
+Date "14 jun 2015"
 Rev ""
 Comp ""
 Comment1 ""
@@ -278,10 +278,10 @@ F 3 "~" H 3100 3100 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L AVR-ISP-6 CON1
+L AVR-ISP-6 ISP1
 U 1 1 553576F8
 P 1950 4450
-F 0 "CON1" H 1870 4690 50  0000 C CNN
+F 0 "ISP1" H 1870 4690 50  0000 C CNN
 F 1 "ISP" H 1710 4220 50  0000 L BNN
 F 2 "pin_array_3x2" H 1950 4175 50  0000 C CNN
 F 3 "" H 1950 4450 60  0000 C CNN
@@ -340,9 +340,9 @@ Text Notes 6400 6050 0    60   ~ 0
 NRF24L01+ Header
 Text Notes 2450 6550 0    60   ~ 0
 HC-05 Header
-Text Label 2100 5650 2    60   ~ 0
+Text Label 2450 6700 2    60   ~ 0
 3V3
-Text Label 2450 6800 2    60   ~ 0
+Text Label 2050 5700 2    60   ~ 0
 GND
 Text Label 1450 6400 2    60   ~ 0
 TX
@@ -397,17 +397,17 @@ Text Label 7200 6550 0    60   ~ 0
 IRQ
 Text Label 5200 4600 0    60   ~ 0
 IRQ
-Text Label 950  6100 2    60   ~ 0
+Text Label 900  6100 2    60   ~ 0
 BTEN
 $Comp
 L R R1
 U 1 1 553EA43E
-P 1200 6100
-F 0 "R1" V 1280 6100 40  0000 C CNN
-F 1 "1000" V 1207 6101 40  0000 C CNN
-F 2 "SM0805" V 1130 6100 30  0000 C CNN
-F 3 "~" H 1200 6100 30  0000 C CNN
-	1    1200 6100
+P 1150 6100
+F 0 "R1" V 1230 6100 40  0000 C CNN
+F 1 "1000" V 1157 6101 40  0000 C CNN
+F 2 "SM0805" V 1080 6100 30  0000 C CNN
+F 3 "~" H 1150 6100 30  0000 C CNN
+	1    1150 6100
 	0    1    1    0   
 $EndComp
 Text Notes 1650 4100 0    60   ~ 0
@@ -732,7 +732,7 @@ Wire Wire Line
 Wire Wire Line
 	2100 6700 2450 6700
 Wire Wire Line
-	2100 6800 2450 6800
+	2050 6800 2450 6800
 Wire Wire Line
 	1600 7000 2450 7000
 Wire Wire Line
@@ -752,13 +752,11 @@ Wire Wire Line
 Wire Wire Line
 	5200 4600 5300 4600
 Wire Wire Line
-	2100 5650 2100 5900
+	2050 5650 2050 5900
 Wire Wire Line
-	2100 6300 2100 6700
+	1400 6100 1750 6100
 Wire Wire Line
-	1450 6100 1800 6100
-Wire Wire Line
-	950  6100 850  6100
+	900  6100 800  6100
 Wire Bus Line
 	5450 2100 6000 2100
 Wire Bus Line
@@ -988,13 +986,13 @@ Power\nTerminal
 $Comp
 L MOS_N_PIN Q1
 U 1 1 5577AD90
-P 2000 6100
-F 0 "Q1" H 2010 6270 60  0000 R CNN
-F 1 "BTEN" H 2010 5950 60  0000 R CNN
-F 2 "SOT23" H 2350 6100 60  0000 C CNN
-F 3 "~" H 2000 6100 60  0000 C CNN
-	1    2000 6100
-	1    0    0    -1  
+P 1950 6100
+F 0 "Q1" H 1960 6270 60  0000 R CNN
+F 1 "BTEN" H 1960 5950 60  0000 R CNN
+F 2 "SOT23" H 2300 6100 60  0000 C CNN
+F 3 "~" H 1950 6100 60  0000 C CNN
+	1    1950 6100
+	1    0    0    1   
 $EndComp
 $Comp
 L C C8
@@ -1065,4 +1063,8 @@ Debug Serial
 Connection ~ 1600 7000
 Wire Wire Line
 	2450 6900 2100 6900
+Wire Wire Line
+	2050 6300 2050 6800
+Text Label 2450 6800 2    60   ~ 0
+HC_GND
 $EndSCHEMATC
