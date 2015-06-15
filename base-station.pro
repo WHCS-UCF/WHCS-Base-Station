@@ -1,4 +1,4 @@
-update=Tue 09 Jun 2015 10:44:35 PM EDT
+update=Sun 14 Jun 2015 07:23:06 PM EDT
 version=1
 last_client=pcbnew
 [general]
@@ -54,8 +54,8 @@ LastNetListRead=base-station-terminals.net
 UseCmpFile=1
 PadDrill="    0.000000"
 PadDrillOvalY="    0.000000"
-PadSizeH="    1.600000"
-PadSizeV="    2.300000"
+PadSizeH="    0.508000"
+PadSizeV="    0.762000"
 PcbTextSizeV="    1.500000"
 PcbTextSizeH="    1.500000"
 PcbTextThickness="    0.300000"
@@ -86,3 +86,4 @@ LibName14=dip_sockets
 LibName15=pga_sockets
 LibName16=valves
 LibName17=/home/digital/.kicad_lib/whcs_custom
+LibName18=logo
