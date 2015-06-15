@@ -20,8 +20,8 @@
   )
 
   (layers
-    (15 F.Cu signal hide)
-    (0 B.Cu signal hide)
+    (15 F.Cu signal)
+    (0 B.Cu signal)
     (16 B.Adhes user)
     (17 F.Adhes user)
     (18 B.Paste user)
@@ -63,10 +63,10 @@
     (mod_edge_width 0.15)
     (mod_text_size 1 1)
     (mod_text_width 0.15)
-    (pad_size 4.572 4.572)
-    (pad_drill 3.048)
+    (pad_size 0.889 0.889)
+    (pad_drill 0.635)
     (pad_to_mask_clearance 0)
-    (aux_axis_origin 230.124 65.913)
+    (aux_axis_origin 94.234 76.454)
     (visible_elements FFFFFBBF)
     (pcbplotparams
       (layerselection 284196865)
@@ -728,7 +728,7 @@
     )
   )
 
-  (module gnd-via (layer F.Cu) (tedit 55799745) (tstamp 5579A34D)
+  (module gnd-via (layer F.Cu) (tedit 557EF9D0) (tstamp 5579A34D)
     (at 146.177 114.427)
     (fp_text reference "" (at 0 0) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -736,7 +736,7 @@
     (fp_text value "" (at 0 0) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (pad "" thru_hole circle (at 0 0) (size 0.889 0.889) (drill 0.508)
+    (pad "" thru_hole circle (at 0 0) (size 0.889 0.889) (drill 0.635)
       (layers *.Cu *.Mask F.SilkS)
       (net 37 GND)
       (zone_connect 2)
